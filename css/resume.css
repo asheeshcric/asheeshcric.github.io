@@ -1,7 +1,7 @@
 body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
-  color: #868e96;
+  color: #5b646e;
 }
 
 @media (min-width: 992px) {
@@ -44,7 +44,7 @@ h2 {
 }
 
 .list-social-icons a:hover {
-  color: #BD5D38;
+  color: #245972;
 }
 
 .list-social-icons a .fa-lg {
@@ -56,7 +56,7 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #245972;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -131,17 +131,17 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #607D8B !important;
+  background-color: #245972 !important;
 }
 
 .text-primary {
-  color: #607d8b !important;
+  color: #245972 !important;
 }
 
 a {
-  color: #22194d;
+  color: #4528cb;
 }
 
 a:hover, a:focus, a:active {
-  color: #607d8b;
+  color: #245972;
 }
