@@ -142,4 +142,5 @@ a:active, a:focus, a:hover {
 .collapse-header {
     font-family: 'Open Sans', serif;
     font-weight: bold;
+    white-space: normal;
 }
