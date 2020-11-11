@@ -582,14 +582,89 @@
 
             <!-- Bootstrap collapse accordion -->
             <div id="accordion">
+
                 <div class="card">
                     <div class="card-header" id="headingOne">
                         <div class="row">
                             <div class="col-md-8">
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed collapse-header" data-toggle="collapse"
-                                            data-target="#collapseOne"
-                                            aria-expanded="false" aria-controls="collapseOne">
+                                            data-target="#fmri_project"
+                                            aria-expanded="false" aria-controls="fmri_project">
+                                        Fatigue Prediction from fMRI scans
+                                    </button>
+                                </h5>
+                            </div>
+                            <div class="col-md-4 float-right">
+                                <h5 class="mb-0 float-right">
+                                    <button class="btn btn-link collapsed collapse-header right" data-toggle="collapse"
+                                            data-target="#ml_projects"
+                                            aria-expanded="false" aria-controls="fmri_project">
+                                        Jul 2020
+                                    </button>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="fmri_project" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            A Deep RNN model to predict fatigue level in subjects with/without Traumatic Brain Injury (TBI) based
+                            on their brain fMRI (3D) scans when performing certain tasks.
+                            <p></p>
+                            <a href="https://github.com/asheeshcric/fMRI-TBI" target="_blank">See Project</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed collapse-header" data-toggle="collapse"
+                                            data-target="#ml_projects"
+                                            aria-expanded="false" aria-controls="ml_projects">
+                                        ML Projects
+                                    </button>
+                                </h5>
+                            </div>
+                            <div class="col-md-4 float-right">
+                                <h5 class="mb-0 float-right">
+                                    <button class="btn btn-link collapsed collapse-header right" data-toggle="collapse"
+                                            data-target="#ml_projects"
+                                            aria-expanded="false" aria-controls="ml_projects">
+                                        Sep 2018
+                                    </button>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="ml_projects" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            In the second course "Machine Learning" of the Micromasters in AI program, I was able to implement 
+                            following classical machine learning techniques to carry out meaningful applications.
+                            <ul>
+                                <li>Ridge Regression & Active Learning</li>
+                                <li>Bayes Classifier Implementation</li>
+                                <li>Clustering (K-means & EM Gaussian)</li>
+                            </ul>
+                            <p></p>
+                            <a href="https://github.com/asheeshcric/machine-learning-columbiax-edx" target="_blank">See Project</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed collapse-header" data-toggle="collapse"
+                                            data-target="#gre_wallpaper"
+                                            aria-expanded="false" aria-controls="gre_wallpaper">
                                         GRE Vocab Wallpaper
                                     </button>
                                 </h5>
@@ -597,16 +672,15 @@
                             <div class="col-md-4 float-right">
                                 <h5 class="mb-0 float-right">
                                     <button class="btn btn-link collapsed collapse-header right" data-toggle="collapse"
-                                            data-target="#collapseOne"
-                                            aria-expanded="false" aria-controls="collapseOne">
+                                            data-target="#gre_wallpaper"
+                                            aria-expanded="false" aria-controls="gre_wallpaper">
                                         Jul 2018
                                     </button>
                                 </h5>
                             </div>
                         </div>
                     </div>
-
-                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div id="gre_wallpaper" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                         <div class="card-body">
                             With an intention to score high in the GRE (Graduate Record Examination), I focused on
                             building something that could help
@@ -618,14 +692,57 @@
                         </div>
                     </div>
                 </div>
+
+
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed collapse-header" data-toggle="collapse"
+                                            data-target="#ai_projects"
+                                            aria-expanded="false" aria-controls="ai_projects">
+                                        AI Projects
+                                    </button>
+                                </h5>
+                            </div>
+                            <div class="col-md-4 float-right">
+                                <h5 class="mb-0 float-right">
+                                    <button class="btn btn-link collapsed collapse-header right" data-toggle="collapse"
+                                            data-target="#ai_projects"
+                                            aria-expanded="false" aria-controls="ai_projects">
+                                        Apr 2018
+                                    </button>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="ai_projects" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            As a part of the first course "Artificial Intelligence" from Columbia Micromasters program, 
+                            I worked in the following projects.
+                            <ul>
+                                <li>Search Algorithms (BFS, DFS, A*) for 8-puzzle game</li>
+                                <li>Adversarial Search & Game (2048 game playing agent)</li>
+                                <li>CSP (Sudoku Solver)</li>
+                                <li>NLP (Sentiment Analysis on IMDB reviews)</li>
+                            </ul>
+                            <p></p>
+                            <a href="https://github.com/asheeshcric/ai-columbiax-edx" target="_blank">See Project</a>
+                        </div>
+                    </div>
+                </div>
+
+
                 <div class="card">
                     <div class="card-header" id="headingTwo">
                         <div class="row">
                             <div class="col-md-8">
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed collapse-header" data-toggle="collapse"
-                                            data-target="#collapseTwo"
-                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            data-target="#krishi_sathi"
+                                            aria-expanded="false" aria-controls="krishi_sathi">
                                         KrishiSathi
                                     </button>
                                 </h5>
@@ -633,15 +750,15 @@
                             <div class="col-md-4 float-right">
                                 <h5 class="mb-0 float-right">
                                     <button class="btn btn-link collapsed collapse-header right" data-toggle="collapse"
-                                            data-target="#collapseTwo"
-                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            data-target="#krishi_sathi"
+                                            aria-expanded="false" aria-controls="krishi_sathi">
                                         Jan 2018 - Aug 2018
                                     </button>
                                 </h5>
                             </div>
                         </div>
                     </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div id="krishi_sathi" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                         <div class="card-body">
                             KrishiSathi is a web portal for farmers integrated with Machine Learning and IoT to analyze
                             daily crops and their growth. The main purpose of initiating this undertaking for my "Final
@@ -652,14 +769,16 @@
                         </div>
                     </div>
                 </div>
+
+
                 <div class="card">
                     <div class="card-header" id="headingThree">
                         <div class="row">
                             <div class="col-lg-8">
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed collapse-header" data-toggle="collapse"
-                                            data-target="#collapseThree"
-                                            aria-expanded="false" aria-controls="collapseThree">
+                                            data-target="#collapseFour"
+                                            aria-expanded="false" aria-controls="collapseFour">
                                         Semi-Autonomous Solar Panel Cleaning Robot
                                     </button>
                                 </h5>
@@ -667,15 +786,15 @@
                             <div class="col-lg-4 float-right">
                                 <h5 class="mb-0 float-right">
                                     <button class="btn btn-link collapsed collapse-header right" data-toggle="collapse"
-                                            data-target="#collapseThree"
-                                            aria-expanded="false" aria-controls="collapseThree">
+                                            data-target="#collapseFour"
+                                            aria-expanded="false" aria-controls="collapseFour">
                                         Dec 2017 - May 2018
                                     </button>
                                 </h5>
                             </div>
                         </div>
                     </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                         <div class="card-body">
                             This project yielded us the "Best Engineering Award" at Robocon Nepal 2018.
                             The purpose of this robot was to make it turn-on street lights manually and then clean solar
@@ -695,8 +814,8 @@
                             <div class="col-md-8">
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed collapse-header" data-toggle="collapse"
-                                            data-target="#collapseFour"
-                                            aria-expanded="false" aria-controls="collapseFour">
+                                            data-target="#currency_pred"
+                                            aria-expanded="false" aria-controls="currency_pred">
                                         Currency Predictor
                                     </button>
                                 </h5>
@@ -704,15 +823,15 @@
                             <div class="col-md-4 float-right">
                                 <h5 class="mb-0 float-right">
                                     <button class="btn btn-link collapsed collapse-header right" data-toggle="collapse"
-                                            data-target="#collapseFour"
-                                            aria-expanded="false" aria-controls="collapseFour">
+                                            data-target="#currency_pred"
+                                            aria-expanded="false" aria-controls="currency_pred">
                                         Feb 2018
                                     </button>
                                 </h5>
                             </div>
                         </div>
                     </div>
-                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                    <div id="currency_pred" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                         <div class="card-body">
                             Currency Predictor is a Django web application built to learn time series that shows the
                             history of prices for different cryptocurrencies and also predicts their prices in the near
@@ -728,8 +847,8 @@
                             <div class="col-md-8">
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed collapse-header" data-toggle="collapse"
-                                            data-target="#collapseFive"
-                                            aria-expanded="false" aria-controls="collapseFive">
+                                            data-target="#robotic_arm"
+                                            aria-expanded="false" aria-controls="robotic_arm">
                                         Industrial Robotic Arm
                                     </button>
                                 </h5>
@@ -737,15 +856,15 @@
                             <div class="col-md-4 float-right">
                                 <h5 class="mb-0 float-right">
                                     <button class="btn btn-link collapsed collapse-header right" data-toggle="collapse"
-                                            data-target="#collapseFive"
-                                            aria-expanded="false" aria-controls="collapseFive">
+                                            data-target="#robotic_arm"
+                                            aria-expanded="false" aria-controls="robotic_arm">
                                         Mar 2017 – Jul 2017
                                     </button>
                                 </h5>
                             </div>
                         </div>
                     </div>
-                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                    <div id="robotic_arm" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
                         <div class="card-body">
                             Robotic Arm powered with record-and-play feature was a college project in my junior year.
                             The
@@ -763,8 +882,8 @@
                             <div class="col-md-8">
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed collapse-header" data-toggle="collapse"
-                                            data-target="#collapseSix"
-                                            aria-expanded="false" aria-controls="collapseSix">
+                                            data-target="#hexacopter"
+                                            aria-expanded="false" aria-controls="hexacopter">
                                         Hexacopter
                                     </button>
                                 </h5>
@@ -772,15 +891,15 @@
                             <div class="col-md-4 float-right">
                                 <h5 class="mb-0 float-right">
                                     <button class="btn btn-link collapsed collapse-header right" data-toggle="collapse"
-                                            data-target="#collapseSix"
-                                            aria-expanded="false" aria-controls="collapseSix">
+                                            data-target="#hexacopter"
+                                            aria-expanded="false" aria-controls="hexacopter">
                                         Sep 2016 – Dec 2016
                                     </button>
                                 </h5>
                             </div>
                         </div>
                     </div>
-                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                    <div id="hexacopter" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
                         <div class="card-body">
                             With three other fellow computer scientists, we were able to build a hexacopter by
                             customizing
