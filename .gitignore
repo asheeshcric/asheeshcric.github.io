@@ -1,2 +1,4 @@
+# Ignore macOS system files
+.DS_Store
 node_modules
 *.swp
