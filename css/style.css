@@ -703,3 +703,22 @@ footer {
     transform: none;
   }
 }
+
+/* Publication citation badge */
+.pub-badge {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent), transparent 88%);
+  border: 1px solid color-mix(in srgb, var(--accent), transparent 70%);
+  border-radius: 999px;
+  padding: 0.1rem 0.5rem;
+  margin: 0 0.25rem;
+  vertical-align: middle;
+}
+
+.pub-list li {
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+}
