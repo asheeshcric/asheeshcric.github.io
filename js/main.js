@@ -95,7 +95,4 @@
     document.querySelectorAll('.reveal').forEach((el) => el.classList.add('in-view'));
   }
 
-  if (window.lucide && typeof window.lucide.createIcons === 'function') {
-    window.lucide.createIcons();
-  }
 })();
